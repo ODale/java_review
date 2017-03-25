@@ -4,9 +4,10 @@ public class Test{
 	public static void main(String[] args)
 	{
 		
-		basicArithmetic();
+		//basicArithmetic();
 	}
 	
+	//basic arithmetic test method
 	public static void basicArithmetic()
 	{
 		//instantiate Scanner object to read keyboard inputs
@@ -35,6 +36,9 @@ public class Test{
 		//output the results to the user
 		System.out.println("The sum is: " + sum);
 		System.out.println("The product is: " + product);
-		System.out.println("The average is: " + average);
+		System.out.println("The average is: %.2f" + average);
 	}
+	
+	
+	
 }
