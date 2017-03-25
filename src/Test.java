@@ -1,8 +1,14 @@
 import java.util.Scanner;
 
 public class Test{
-	public static void main(String[] args){
+	public static void main(String[] args)
+	{
 		
+		basicArithmetic();
+	}
+	
+	public static void basicArithmetic()
+	{
 		//instantiate Scanner object to read keyboard inputs
 		Scanner input = new Scanner(System.in);
 		
